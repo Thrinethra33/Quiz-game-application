@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillCraft - Interactive Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <span id="progress-text">Question 1 of 3</span>
+            <div class="progress-bar-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+        </div>
+
+        <div id="question-box">
+            <h2 id="question-text">Question text goes here?</h2>
+            <div id="answer-options" class="options-container">
+                </div>
+        </div>
+
+        <div id="result-box" class="hide">
+            <h2>Quiz Completed! 🎉</h2>
+            <p class="score-display">You Scored: <span id="final-score">0</span> / <span id="total-questions">0</span></p>
+            <button id="restart-btn" class="btn action-btn">Restart Quiz</button>
+        </div>
+
+        <div class="quiz-footer" id="quiz-footer">
+            <button id="next-btn" class="btn submit-btn">Next Question</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
